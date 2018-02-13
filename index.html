@@ -4,78 +4,72 @@
 <head>
 	<meta charset = "UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="mojaPlastelinka.css">
+	<link rel="stylesheet" media="screen and (min-width: 750px)" type="text/css" href="mojaPlastelinka.css"/>
+	<link rel="stylesheet" media="screen and (max-width: 749px)" type="text/css" href="mojaPlastelinkaSmall.css"/>
 </head>
 <body>
-<button class="toggle">Show &amp; Hide</button>
-	<div class="container">
-		<div id="target">
-		
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl01.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl02.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl03.png">
-			</label>
-		
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl04.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl05.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl06.png">
-			</label>
-		
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl07.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl08.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl09.png">
-			</label>
-		
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl10.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl11.png">
-			</label>
-
-			<label>
-					<input type="checkbox">
-					<img class="plastelinka" src="plastelinka/pl12.png">
-			</label>
-		</div>
-		
-		<div id="bottom"></div>
-
-	</div>	
+<button class="toggle">Plasteliny</button>
+<div class="mainContainer">
+  <div class="container">
+    <div id="target">
+      <img class="plBoxBottom" src="cardS.jpg"/>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl01" class="plastelinka" src="plastelinka/pl01.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl02" class="plastelinka" src="plastelinka/pl02.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl03" class="plastelinka" src="plastelinka/pl03.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl04" class="plastelinka" src="plastelinka/pl04.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl05" class="plastelinka" src="plastelinka/pl05.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl06" class="plastelinka" src="plastelinka/pl06.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl07" class="plastelinka" src="plastelinka/pl07.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl08" class="plastelinka" src="plastelinka/pl08.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl09" class="plastelinka" src="plastelinka/pl09.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl10" class="plastelinka" src="plastelinka/pl10.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl11" class="plastelinka" src="plastelinka/pl11.png"/>
+      </label>
+      <label>
+        <input type="checkbox"/>
+        <img id="pl12" class="plastelinka" src="plastelinka/pl12.png"/>
+      </label>
+      <img class="plBox" src="cardSS.jpg"/>
+    </div>
+    <div id="bottom"></div>
+  </div>
+  <div id="mixResult" class="containerMix">
+    <img class="mix" src="plastelinka/plMix.png"/>
+  </div>
+</div>
 	
-<script src="myJava.js"> </script>	
+<script src="myJava.js"></script>
 </body>
 </html>
